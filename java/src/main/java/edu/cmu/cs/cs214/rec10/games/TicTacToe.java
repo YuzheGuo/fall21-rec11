@@ -40,6 +40,7 @@ public final class TicTacToe {
      * @throws IllegalStateException if the game is already over.
      */
     public void play(int x, int y) {
+        System.out.println("play");
         if (isOver()) {
             throw new IllegalStateException("Game is already over.");
         }
